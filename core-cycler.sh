@@ -2,8 +2,10 @@
 
 LOG_FILE="./core-cycler.log"
 PROGRESS_FILE="./temp-core-cycler-progress"
-LONG_TEST_LEN="1h"
-SHORT_TEST_LEN="20m"
+
+# 40m and 10m should work
+LONG_TEST_LEN="5m"
+SHORT_TEST_LEN="1m"
 
 GREEN='\033[0;32m'
 RED='\033[0;31m'
