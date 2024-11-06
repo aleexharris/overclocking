@@ -11,20 +11,9 @@ Step 1: Bring down PBO in negative offset steps of 5, down to maximum of 30.
 - [ ] -25: 
 - [ ] -30: 
 
-Step 2: Set manual Precision Boost Overdrive (PBO) limits of:
+Rethinking my testing a bit... The case I need to cater for is the low-usage case, not the max power one... Written a new script for testing per-core boost as well.
 
-- 230w Package Power Tracking (PPT)
-- 140A Thermal Design Current (TDC)
-- 180A Electric Design Current (EDC)
-
-Step 3: Gradually increase the Precision Boost Overdrive (PBO) scalar from 2x.
-
-- [ ] 2x: 
-- [ ] 3x: 
-- [ ] 4x:
-- [ ] 5x:
-- [ ] 6x:
-- [ ] 7x:
-- [ ] 8x:
-- [ ] 9x:
-
+Some decent guides off Reddit:
+- https://old.reddit.com/r/Amd/comments/khtx1o/guide_zen_3_overclocking_using_curve_optimizer/
+- https://www.reddit.com/r/Amd/comments/qik4t3/zen_3_pbo_and_curve_optimizer/
+- https://albertherd.com/2020/12/13/my-experience-with-precision-boost-overdrive-2-on-a-5900x/
