@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Testing CPU cores and cache"
 stress-ng --cpu 32 --cpu-method all --verify -t 1h
 
