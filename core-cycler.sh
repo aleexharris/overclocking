@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_FILE="./core-cycler.log"
+LOG_FILE="./logs-core-cycler.log"
 PROGRESS_FILE="./temp-core-cycler-progress"
 
 # 40m and 10m should work
@@ -72,7 +72,7 @@ run_core_tests() {
 
     log_message "INFO" "Testing CPU linear algebra on core $core" "true"
     for method in ackermann fft matrixprod; do
-        if stress-ng --taskset $core --cpu 1 --cpu-method $method -t "$SHORT_TEST_LEN"; then
+        if stress-ng --taskset $core --cpu 1 --cpu-method $method --cache-enable-all -t "$SHORT_TEST_LEN"; then
             log_message "PASS" "Core $core: $method test" "true"
         else
             log_message "FAIL" "Core $core: $method test" "true"
