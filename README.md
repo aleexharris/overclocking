@@ -2,7 +2,9 @@
 
 Looking to undervolt my Ryzen 7950x using Precision Boost Overdrive (PBO) tuning settings in the advanced section of my motherboard BIOS to bring temps and thus my desktop's noise levels down, without an appreciable change in performance.
 
-Step 1: Bring down the PBO curve optimiser offset in negative steps of 5, down to maximum of 30.
+## Tuning
+
+**Stage 1:** Bring down the PBO curve optimiser offset in negative steps of 5, down to maximum of 30.
 
 - [ ] -05: 5.2Ghz @ 215w down to 5.1Ghz @ 205w after 20 minutes.
 - [ ] -10: 
@@ -11,14 +13,14 @@ Step 1: Bring down the PBO curve optimiser offset in negative steps of 5, down t
 - [ ] -25: 
 - [ ] -30: 
 
-Step 2: Decrease max power draw with the goal of 5.2Ghz across all cores at a lower power rating.
+**Step 2:** Decrease max power draw with the goal of 5.2Ghz across all cores at a lower power rating.
 
 - [ ] 200w:
 - [ ] 190w:
 - [ ] 180w:
 - [ ] 170w:
 
-##  Testing
+## Testing
 
 **1. Long-duration all-core test.**
 - 8 hours smashing the CPU to test max temps and power draw.
