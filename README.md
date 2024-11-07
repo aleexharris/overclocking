@@ -1,6 +1,6 @@
-# Precision Boost Overdrive (PBO) Tuning a Ryzen 7950x
+# Ryzen 7950x Tuning with Precision Boost Overdrive
 
-Looking to undervolt my Ryzen 7950x to bring temps and thus noise levels down, without an appreciable change in performance.
+Looking to undervolt my Ryzen 7950x using Precision Boost Overdrive (PBO) tuning settings in the advanced section of my motherboard BIOS to bring temps and thus my desktop's noise levels down, without an appreciable change in performance.
 
 Step 1: Bring down the PBO curve optimiser offset in negative steps of 5, down to maximum of 30.
 
